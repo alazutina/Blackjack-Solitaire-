@@ -15,7 +15,7 @@ public class Project2 {
 
         FlyData fData = new FlyData();
 
-        fData.base = fData.readBase("/home/anya/Student/pr2/src/project2/flights.csv");
+        fData.base = fData.readBase("flights_small.csv");
 
         ans = fData.FirstAnswer(fData.base) + "\n"
                 + fData.SecondAnswer(fData.base) + "\n"
